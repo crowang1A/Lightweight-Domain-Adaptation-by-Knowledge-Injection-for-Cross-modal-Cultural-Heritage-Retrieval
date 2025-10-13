@@ -7,7 +7,8 @@ The method adapts only the text encoder of LLM2CLIP using LoRA, achieving effici
 
 ## Code Structure
 - `train_injection.py` — fine-tuning script supporting three configurations: Projection-only, Model-only, Full.
-- `evaluate_retrieval.py` — compute recall@K on COCO, Flickr30k, and WikiArt.
+- `extract_embedding.py` — extract text embeddings.
+- `evaluate_retrieval.py` — compute recall@K on WikiArt.
 - `data/` — contains evaluation and injection datasets (see below).
 - `requirements.txt` — dependencies.
 
@@ -62,7 +63,7 @@ python src/train_injection.py \
 #### 🔧 Extract embeddings
 
 ```bash
-python src/train_injection.py \
+python src/extract_embedding.py \
   --base_model_path microsoft/LLM2CLIP-Llama-3-8B-Instruct-CC-Finetuned \
   --ann_path yourpath/test.jsonl \
   --save_path yourpath/embedding.dpt \

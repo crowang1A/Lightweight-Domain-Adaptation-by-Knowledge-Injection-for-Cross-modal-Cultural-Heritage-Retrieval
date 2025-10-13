@@ -62,7 +62,7 @@ python src/train_injection.py \
 #### 🔧 Extract embeddings
 
 ```bash
-python src/extract_eval_finetune_grid.py \
+python src/train_injection.py \
   --base_model_path microsoft/LLM2CLIP-Llama-3-8B-Instruct-CC-Finetuned \
   --ann_path yourpath/test.jsonl \
   --save_path yourpath/embedding.dpt \
@@ -74,7 +74,7 @@ python src/extract_eval_finetune_grid.py \
 #### 2. Run evaluation
 
 ```bash
-python src/eval_llm2clip.py \
+python src/evaluate_retrieval.py \
     --yaml yourpath/eval_datasets.yaml \
     --batch-size 512 \
     --save-dir output \

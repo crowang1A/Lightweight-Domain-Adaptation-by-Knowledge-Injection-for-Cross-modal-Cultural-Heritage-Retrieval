@@ -11,18 +11,19 @@ The method adapts only the text encoder of LLM2CLIP using LoRA, achieving effici
 - `data/` — contains evaluation and injection datasets (see below).
 - `requirements.txt` — dependencies.
 
-## data
+## 📁 data
 This repository provides the evaluation and injection datasets used in our experiments.
 ### WikiArt-1K
 The evaluation set contains 1,000 artwork images paired with natural-language queries for image–text retrieval.
 
-📁 **Images**  
-*(Due to anonymization, dataset links are withheld and will be shared upon acceptance.)*
-
-📁 **json/**  
-This folder contains annotation files for different evaluation settings:
-
+ **json/**  
 - `test_1k_raw.json`: Raw dataset used in the thesis
 - `test_1k_new.json`: Dataset with injected style names (With-Style condition)
 - `test_1k_few.json`: Subset of samples containing only the newly added styles
+
+ **Images**  
+*(Due to anonymization, dataset links are withheld and will be shared upon acceptance.)*
+
+
+
 

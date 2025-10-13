@@ -15,8 +15,10 @@ The method adapts only the text encoder of LLM2CLIP using LoRA, achieving effici
 This repository provides the evaluation and injection datasets used in our experiments.
 ### WikiArt-1K
 The evaluation set contains 1,000 artwork images paired with natural-language queries for image–text retrieval.
+
 📁 **Images**  
 *(Due to anonymization, dataset links are withheld and will be shared upon acceptance.)*
+
 📁 **json/**  
 This folder contains annotation files for different evaluation settings:
 

@@ -84,9 +84,9 @@ python src/eval_llm2clip.py \
 ### 🔧 `eval_datasets.yaml` Format
 
 ```yaml
-text_feature_path: /scratch-shared/ywang4/wikiart/wikiart_new_clip_features.dpt
-json_file: /scratch-shared/ywang4/wikiart/test_1k_new.json
-img_root: /scratch-shared/ywang4/wikiart/images
+text_feature_path: yourpath/embedding.dpt
+json_file:.../test_1k_new.json
+img_root: ...
 ```
 
 

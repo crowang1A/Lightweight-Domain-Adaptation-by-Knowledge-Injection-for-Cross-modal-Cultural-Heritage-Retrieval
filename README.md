@@ -1,5 +1,5 @@
 This repository contains the implementation and datasets for the paper:
-**"Lightweight Domain Adaptation by Knowledge Injection for Cross-modal Cultural Heritage Retrieval" (ECIR 2026 Short Paper)**.
+**"Lightweight Domain Adaptation by Knowledge Injection for Cross-modal Cultural Heritage Retrieval"**.
 
 ## Overview
 We propose a lightweight text-side knowledge injection framework for multimodal retrieval models.  
